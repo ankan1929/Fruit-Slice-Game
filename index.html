@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/scr.png" type="image/x-icon">
+    <title>Fruit Slice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="instructions">Slice Fruits</div>
+    <div id="container">
+        <div id="fruitcontainer">
+            <div id="scoreDisplay">Score: <span id="scoreValue">0</span></div>
+            <div id="trialsleft"></div>
+            <img id="fruit1" class="fruit" />
+        </div>
+        <div id="startReset">Start Game</div>
+        <div id="gameOver"></div>
+    </div>
+
+    <!-- Slice Sound -->
+    <audio id="slicesound">
+        <source src="./assets/slice.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
